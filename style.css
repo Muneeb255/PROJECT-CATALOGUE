@@ -1,0 +1,487 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    Background: linear-gradient(to right, #56ccf2, #2f80ed);
+    /*background: linear-gradient(to right, #FF7E5F, #FEB47B);
+    background: linear-gradient(to right, #470391, #2870ee);*/
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 95px;
+}
+
+.input {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    width: 500px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.input input::placeholder {
+    color: white; 
+    opacity: 1; 
+}
+.input img {
+    width: 50px; 
+    margin-left: 100px;
+    display: inline;
+}
+
+
+.hero {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    height: 250px; 
+    width: 100%; 
+    gap: 20px;
+}
+
+.hero1, .hero2 {
+    height: 100%; 
+}
+
+.hero1 {
+    width: 30%;
+    Background: linear-gradient(to right, #56ccf2, #2f80ed);
+    color: white;
+}
+
+.hero2 {
+    width: 70%;
+
+}
+.hero2 img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.categories p{
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
+.categories ul{
+    text-align: left;
+    font-size: large;
+}
+
+.categories a{
+    color: white;
+    text-decoration: none;
+}
+
+.laptop_div{
+    padding-top: 10px;
+}
+.laptop_div h3{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+.laptop-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.laptop_img{
+    height: 350px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.laptop_img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.laptop-group h6{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.phone_div{
+    padding-top: 30px;
+}
+.phone_div h3{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+.phone-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.phone_img{
+    height: 200px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.phone_img img{
+    width: 180px;
+    height: 130px;
+    border-radius: 5px;
+}
+.phone-group h6{
+    position: relative;
+    top: -30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.watches_div{
+    padding-top: 10px;
+}
+.watches_div h3 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.watches-group {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    gap: 20px; 
+    padding-bottom: 20px;
+}
+.watches_img {
+    width: calc(50% - 50px); 
+    height: 350px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.watches_img img {
+    width: 100%;
+    height: auto; 
+    max-width: 300px; 
+    border-radius: 5px;
+}
+.watches-group h6{
+    position: relative;
+    top: -30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer{    
+    width: 100%;
+    height: 80px;
+    Background: linear-gradient(to right, #56ccf2, #2f80ed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer img{
+    width: 40px;
+}
+.footer p{
+    color: white;
+    font-size: large;
+}
+
+@media (max-width: 1024px){
+    nav{
+        height: 90px;
+    }
+    nav img{
+        width: 85px;
+    }
+    .laptop-group {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-evenly; 
+        gap: 20px; 
+        padding-bottom: 20px;
+    }
+    .laptop_img {
+        width: calc(50% - 50px); 
+        height: 350px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .laptop_img img {
+        width: 100%;
+        height: auto; 
+        max-width: 300px; 
+    }
+    .laptop-group h6{
+        position: relative;
+        top: -40px;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+        font-size: large;
+    }
+    
+
+    .phone-group {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-evenly; 
+        gap: 20px; 
+        padding-bottom: 20px;
+    }
+    .phone_img {
+        width: calc(50% - 50px); 
+        height: 350px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone_img img {
+        width: 100%;
+        height: auto; 
+        max-width: 300px; 
+    }
+    .phone-group h6{
+        position: relative;
+        top: -40px;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+        font-size: large;
+    }
+    
+}
+
+@media (max-width: 768px){
+    nav{
+        height: 80px;
+    }
+    nav img{
+        width: 75px;
+    }
+    .input input{
+        width: 300px;
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .categories p{
+        font-size: large;
+        font-weight: 600;
+    }
+    .categories ul{
+        font-size: medium;
+    }
+    .footer{
+        height: 60px;
+    }
+    .footer p{
+        font-size: small;
+    }
+    .footer img{
+        width: 20px;
+    }
+    .laptop_div h3, .phone_div h3, .watches_div h3{
+        font-size: x-large;
+    }
+    .laptop-group h6, .phone-group h6, .watches-group h6{
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 425px){
+    nav{
+        height: 60px;
+    }
+    nav img{
+        width: 55px;
+    }
+    .input input{
+        margin-left: 10px;
+        width: 180px;
+        padding-left: 8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .categories p{
+        font-size: large;
+        font-weight: 600;
+    }
+    .categories ul{
+        font-size: medium;
+    }
+    .hero {
+        flex-direction: column; 
+        height: auto; 
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .hero1 {
+        width: 50%; 
+        height: 40vh; 
+    }
+
+    .hero2 {
+        width: 100%; 
+        height: 50vh; 
+    }
+    .footer{
+        height: 50px;
+    }
+    .footer p{
+        font-size: smaller;
+    }
+    .footer img{
+        width: 15px;
+    }
+    .laptop_div h3, .phone_div h3, .watches_div h3{
+        font-size: large;
+    }
+    .laptop-group h6, .phone-group h6, .watches-group h6{
+        font-size: small;
+    }
+    .footer{  
+        gap: 8px;
+    }
+    .laptop_img, .phone_img, .watches_img{
+        height: 200px;
+    }
+    
+
+}
+
+@media (max-width: 375px){
+    nav{
+        height: 60px;
+    }
+    nav img{
+        width: 55px;
+    }
+    .input {
+        position: relative; 
+    }
+    .input input{
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        left: 30px;
+    }
+    .input input::placeholder {
+        font-size: small; 
+        opacity: 1; 
+    }
+    .categories p{
+        font-size: medium;
+        font-weight: 400;
+    }
+    .categories ul{
+        font-size: small;
+    }
+    .footer{
+        height: 50px;
+    }
+    .footer p{
+        font-size: x-small;
+    }
+    .footer img{
+        width: 15px;
+    }
+    .laptop_div h3, .phone_div h3, .watches_div h3{
+        font-size: large;
+    }
+    .laptop-group h6, .phone-group h6, .watches-group h6{
+        font-size: small;
+    }
+    .footer{  
+        gap: 5px;
+    }
+    .laptop_img, .phone_img, .watches_img{
+        height: 150px;
+    }
+}
+
+@media (max-width: 320px){
+    nav{
+        height: 60px;
+    }
+    nav img{
+        width: 55px;
+    }
+    .input {
+        position: relative; 
+    }
+    .input input{
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        left: 30px;
+    }
+    .input input::placeholder {
+        font-size: small; 
+        opacity: 1; 
+    }
+    .categories p{
+        font-size: medium;
+        font-weight: 400;
+    }
+    .categories ul{
+        font-size: small;
+    }
+    .footer{
+        height: 50px;
+    }
+    .footer p{
+        font-size: x-small;
+    }
+    .footer img{
+        width: 15px;
+    }
+    .laptop_div h3, .phone_div h3, .watches_div h3{
+        font-size: large;
+    }
+    .laptop-group h6, .phone-group h6, .watches-group h6{
+        font-size: small;
+    }
+    .footer{  
+        gap: 5px;
+    }
+    .laptop_img, .phone_img, .watches_img{
+        height: 150px;
+    }
+}
